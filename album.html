@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our albums</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- CSS remake -->
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+      }
+      .card img {
+        border-radius: 1em;
+        width: 95%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigator -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="android-chrome-512x512.png" alt="logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="album.html">Albums</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Container -->
+    <div class="container my-5">
+      <!-- Row of card -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <!-- Card 1 -->
+        <div class="col">
+          <div class="card">
+            <!-- Card IMG -->
+            <img src="IMG_2384 2.jpeg" class="card-img-top" alt="Luna" />
+            <div class="card-body">
+              <!-- Card titel -->
+              <h5 class="card-title">Luna</h5>
+              <!-- Card text -->
+              <p class="card-text">
+                Cover to awesome song, but our's much better.
+              </p>
+              <!-- Card link -->
+              <a
+                href="https://vk.com/music/album/-2000743069_7743069_c02bc3539c37ec1651"
+                class="btn btn-primary"
+                target="_blank"
+                >LISTEN on VK!</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col">
+          <div class="card">
+            <img src="IMG_2386 2.jpeg" class="card-img-top" alt="Bosikom" />
+            <div class="card-body">
+              <h5 class="card-title">Босиком</h5>
+              <p class="card-text">
+                Our single we have writen to wedding. Love. Hope.
+              </p>
+              <a
+                href="https://vk.com/music/album/-2000249692_7249692_7898cf4bc32993ad27"
+                class="btn btn-primary"
+                target="_blank"
+                >LISTEN on VK!</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col">
+          <div class="card">
+            <img src="IMG_0005.JPG" class="card-img-top" alt="Punk" />
+            <div class="card-body">
+              <h5 class="card-title">Панк для тех, кто..</h5>
+              <p class="card-text">Our first EP. Includes 5 new song. Fun. Crazy.</p>
+              <a
+                href="https://vk.com/music/album/-2000781450_6781450_49182a27d8369786eb"
+                class="btn btn-primary"
+                target="_blank"
+                >LISTEN on VK!</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col">
+          <div class="card">
+            <img src="IMG_2385 2.jpeg" class="card-img-top" alt="Nadoelo" />
+            <div class="card-body">
+              <h5 class="card-title">Надоело</h5>
+              <p class="card-text">Our first single. Depressed. Painfull.</p>
+              <a
+                href="https://vk.com/music/album/-2000324471_6324471_2e6f0a287d55e7fac4"
+                class="btn btn-primary"
+                target="_blank"
+                >LISTEN on VK!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
